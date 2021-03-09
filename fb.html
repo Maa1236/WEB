@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+Create a form for Facebook posts scheduling
+● The page should have one form that consists of elements, labels and a
+submit button
+● It should have one required text field (Name)
+● A field for date on which the post should be created
+● A URL field for a website that will be used for the post
+● A field that contains an email address to which an email is sent after
+publishing the post
+    -->
+
+<h1>Facebook post scheduling</h1>
+<form>
+    <fieldset>
+    <legend>Your details:</legend>
+    <label>Name:</label>
+    <input type="text" name="fb" required autocomplete="on" placeholder="Your Name Here" minlength="3">
+    <br><br>
+    <label>Date:</label>
+    <input type="date" name="fb" required>
+    <br><br>
+    <label>your fb URL:</label>
+    <input type="url" name="fb" required autocomplete="on" placeholder="Your URL">
+    <br><br>
+    <label>Email:</label>
+    <input type="email" name="fb" required placeholder="Your email" autocomplete="on">
+    </fieldset>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

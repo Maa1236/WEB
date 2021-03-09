@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Textarea/Radio/Checkbox
+Create a page that simulates a school quiz, containing multiple questions:
+The first question should contain multiple options out of which the student can select only one
+The second quiz question has multiple options out of which the user can select several
+The third question should require from user to insert some long text
+-->
+<form>
+    <h1>School quiz</h1>
+    <p>Your favorite class?</p>
+    
+    <input type="radio" id="class1" name="class" value="math"/>
+    <label for="class1">Math</label>
+    <br>
+    <input type="radio" id="class2" name="class" value="art"/>
+    <label for="class2">Art</label>
+    <br>
+    <input type="radio" id="class3" name="class" value="science"/>
+    <label for="class3">Science</label>
+    <br><br><br>
+
+    
+
+    <p>Favorite food for lunch?</p>
+    
+    <input type="checkbox" id="food1" name="sandwich" value="sandwich">
+    <label for="food1">Sandwich</label>
+    <br>
+    <input type="checkbox" id="food2" name="salad" value="salad">
+    <label for="food2">Salad</label>
+    <br>
+    <input type="checkbox" id="food3" name="pommes fries" value="pommes fries">
+    <label for="food3">Pommes fries</label>
+    <br><br><br>
+
+    
+    <p>Your favorite teacher and why?</p>
+    <textarea id="teacher" name="teacher" cols="60" rows="20">Describe in a few sentences...</textarea>
+    
+</form>
+</body>
+</html>
