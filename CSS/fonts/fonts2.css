@@ -1,0 +1,9 @@
+p:first-child {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+p:nth-child(3) {
+    text-transform: lowercase;
+    text-decoration: line-through;
+}

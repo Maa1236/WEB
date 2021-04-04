@@ -1,0 +1,26 @@
+p {
+    background-color: yellow;
+    border: 5px solid;
+}
+
+.p13 {
+    border: 5px red dashed;
+    padding: 50px;
+}
+
+.p2 {
+    border: 5px green solid;
+    padding-top: 50px;
+    width: 400px;
+    margin: auto;
+}
+
+.pm1 {
+    width: 300px;
+    margin: 50px;
+}
+
+.pm3 {
+    width: 200px;
+    margin-left: 100px;
+}

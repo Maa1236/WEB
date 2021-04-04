@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+    color: navy;
+    background-color: #eee;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 26pt;
+    font-variant-caps: small-caps;
+    text-align: right;
+    background-color: navy;
+    color: #ccf;
+    padding: 4px 10px;
+    border-top: 8px solid #88c;
+    border-bottom: 8px solid #88c;
+    margin-top: 0px;
+}
+
+p {
+    width: 80%;
+    margin-bottom: 16px;
+    text-align: justify;
+    border-left: solid rgb(182, 182, 241) 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+aside {
+    width: 30%;
+    margin-left: auto;
+    text-align: left;
+    padding: 16px;
+    font-size: 12.8px;
+    margin-right: 5px;
+    border: solid red 2px;
+    border-bottom: red solid 4px;
+    border-right: red solid 4px;
+    background-color: lightyellow;
+    color: red;
+}
+
+h3 {
+    border-bottom: dotted 5px #88d;
+    width: 90%;
+    margin: 0px auto;
+    font-weight: 900;
+}
+
+table {
+    border: solid black;
+    background-color: #a88;
+    border-collapse: collapse;
+}
+
+th {
+    border-collapse: collapse;
+}
+
+.jocca {
+    font-weight: bold;
+}
+
+.header {
+    font-weight: 700;
+    color: ivory;
+    background-color: rgb(26, 26, 66);
+}
+
+table {
+    border: solid black 4px;
+    margin: 16px auto;
+    background-color: #fde;
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 2px black solid;
+    border-left: #a88 1px solid;
+    padding: 3px 9px;
+    font-weight: 100;
+}
+
+th {
+    border-bottom: 2px black solid;
+    border-left: #a88 1px solid;
+    padding: 3px 9px;
+}
+
+div {
+    text-align: center;
+    font-weight: 600;
+    width: 400px;
+    margin: 16px auto;
+    padding: 10px;
+    border: double rgb(8, 66, 8) 15px;
+    background-color: rgb(194, 243, 184);
+    color: rgb(8, 66, 8);
+}
+
+nav {
+    width: 70%;
+    margin: 16px auto;
+    font-family: serif;
+    font-style: italic;
+}
+
+a {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+.cestitamo {
+    font-weight: bold;
+}

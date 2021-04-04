@@ -1,0 +1,55 @@
+p {
+    background-color: yellow;
+    border: 5px solid;
+    margin-right: 20px;
+    padding: 0;
+    display: inline-block;
+}
+
+.p13 {
+    border: 5px red dashed;
+    padding: 50px;
+}
+
+.p2 {
+    border: 5px green solid;
+    padding-top: 50px;
+    width: 400px;
+    margin: auto;
+    display: none;
+}
+
+.pm1 {
+    width: 300px;
+    margin: 50px;
+}
+
+.pm3 {
+    width: 200px;
+    margin-left: 100px;
+    visibility: hidden;
+}
+
+h1 {
+    width: 960px;
+    margin: 50px auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: limegreen;
+    color: maroon;
+    width: 1000px;
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 200px;
+}
+
+#demoObject {
+    -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    background: #9400D3;
+}
+
+body#tinymce {
+    background: #FFFFFF
+}

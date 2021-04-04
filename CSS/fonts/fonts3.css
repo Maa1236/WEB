@@ -1,0 +1,13 @@
+p:nth-child(2) {
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+p:nth-child(4) {
+    line-height: 200%;
+    text-align: right;
+}
+
+p:nth-child(6) {
+    text-align: center;
+}
