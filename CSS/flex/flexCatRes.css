@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(234, 234, 245);
+}
+
+header {
+    width: 100%;
+}
+
+.fix {
+    background-color: rgb(5, 5, 71);
+    border-top: solid 2px white;
+    color: white;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    padding: 5px 5px 5px 100px;
+}
+
+.fix1 {
+    background-color: rgb(5, 5, 71);
+    border-top: solid 2px white;
+    color: white;
+    font-size: 12px;
+    padding: 5px 5px 5px 100px;
+    text-align: end;
+}
+
+.banner {
+    background-image: url(background.jpg);
+    padding: 30px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-shadow: 2px 2px gray;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    margin: 0;
+}
+
+.wrapp1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0;
+}
+
+.dropdown-select {
+    display: flex;
+    order: 1;
+    flex: 1;
+    margin: 0;
+    flex-direction: column;
+}
+
+.img-wrapp {
+    display: flex;
+    flex: 3;
+}
+
+.img-wrapp img {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    border: solid rgb(174, 174, 226) 1px;
+    border-radius: 5px;
+    background-color: rgb(242, 242, 248);
+    padding: 10px;
+    flex-direction: column;
+}
+
+.dropdown-select>p {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(95, 95, 161);
+    text-align: center;
+}
+
+.demoObject {
+    -webkit-box-shadow: 0px 0px 19px -7px rgba(158, 160, 163, 1);
+    -moz-box-shadow: 0px 0px 19px -7px rgba(158, 160, 163, 1);
+    box-shadow: 0px 0px 19px -7px rgba(158, 160, 163, 1);
+}
+
+label {
+    font-family: cursive;
+    color: rgb(9, 9, 49);
+    font-weight: 600;
+    padding: 5px;
+}
+
+.mau {
+    padding: 5px;
+    font-size: 12px;
+    font-family: cursive;
+    color: rgb(9, 9, 49);
+}
+
+input[type="submit"] {
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    padding: 6px 5px;
+    background-color: rgba(11, 139, 39, 0.7);
+    color: white;
+    margin: 10px 0;
+    border: none;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(161, 161, 165, 0.2);
+    margin: 0;
+    padding: 0;
+}
+
+.wrapp2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.img-wrapp2 {
+    background-color: rgba(95, 95, 161, 0.5);
+}
+
+.img-wrapp2 img {
+    width: 100%;
+}
+
+h2 {
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(95, 95, 161);
+}
+
+@media screen and (min-width: 770px) {
+    header {
+        width: 100%;
+    }
+    .fix {
+        background-color: rgb(5, 5, 71);
+        border-top: solid 2px white;
+        color: white;
+        font-size: 20px;
+        font-family: 'Kaushan Script', cursive;
+        padding: 10px 10px 10px 150px;
+        position: fixed;
+        /* top: 0;
+        left: 0; */
+        width: 100%;
+        z-index: 1;
+    }
+    .banner {
+        background-image: url(background.jpg);
+        padding: 70px;
+        text-align: center;
+        font-family: 'Kaushan Script', cursive;
+        color: white;
+        font-size: 30px;
+        font-weight: 400;
+        text-shadow: 2px 2px gray;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .wrapp1 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    .dropdown-select {
+        display: flex;
+        flex: 0 0 30%;
+        order: 0;
+        margin: 0;
+        padding-right: 20px;
+        flex-direction: column;
+    }
+    .img-wrapp {
+        display: flex;
+        flex: 0 0 70%;
+        order: 1;
+    }
+    .img-wrapp img {
+        width: 100%;
+    }
+    form {
+        display: flex;
+        border: solid rgb(174, 174, 226) 1px;
+        border-radius: 5px;
+        background-color: rgb(242, 242, 248);
+        padding: 10px;
+        flex-direction: column;
+    }
+    .dropdown-select>p {
+        padding: 10px;
+        font-size: 20px;
+        font-family: 'Kaushan Script', cursive;
+        color: rgb(95, 95, 161);
+    }
+    .demoObject {
+        -webkit-box-shadow: 0px 0px 19px -7px rgba(158, 160, 163, 1);
+        -moz-box-shadow: 0px 0px 19px -7px rgba(158, 160, 163, 1);
+        box-shadow: 0px 0px 19px -7px rgba(158, 160, 163, 1);
+    }
+    label {
+        font-family: cursive;
+        color: rgb(9, 9, 49);
+        font-weight: 600;
+        padding: 5px;
+    }
+    .mau {
+        padding: 5px;
+        font-size: 12px;
+        font-family: cursive;
+        color: rgb(9, 9, 49);
+    }
+    input[type="submit"] {
+        border-radius: 4px;
+        font-size: 14px;
+        color: white;
+        padding: 6px 5px;
+        background-color: rgba(11, 139, 39, 0.7);
+        color: white;
+        margin: 10px 0;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: rgba(161, 161, 165, 0.2);
+        margin: 60px 0;
+        padding: 10px 150px;
+    }
+    .wrapp2 {
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+    }
+    .img-wrapp2 {
+        background-color: rgba(95, 95, 161, 0.5);
+        display: flex;
+        flex: 2;
+    }
+    h2 {
+        padding-bottom: 10px;
+        font-size: 25px;
+        font-family: 'Kaushan Script', cursive;
+        color: rgb(95, 95, 161);
+    }
+    h2::after {
+        display: block;
+        content: "";
+        background-color: rgb(129, 129, 238);
+        width: 200px;
+        height: 1.5px;
+        margin: 10px 0 30px 0;
+    }
+    .fix1 {
+        background-color: rgb(5, 5, 71);
+        border-top: solid 2px white;
+        color: white;
+        font-size: 12px;
+        padding: 5px 5px 5px 100px;
+        text-align: end;
+    }
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 15%;
+    padding: 20px;
+    background-color: lightgreen;
+    color: white;
+    align-items: center;
+}
+
+.mejl {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 15%;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+.social {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(196, 56, 77);
+    flex-direction: column;
+    align-items: center;
+}
+
+.social h3 {
+    margin-bottom: 10px;
+}
+
+.img-wrapp3 {
+    display: flex;
+}
+
+.img-wrapp3 img {
+    margin: 0 5px;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.img-wrapp2 img {
+    display: flex;
+    flex: 1;
+}

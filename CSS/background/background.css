@@ -1,0 +1,107 @@
+/* .mau {
+    position: relative;
+}
+
+.mau::before {
+    content: "";
+    background-image: url("jez.jpg");
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    position: relative;
+    color: black;
+} */
+
+
+/* .mau {
+    position: relative;
+}
+
+.mau::before {
+    content: "";
+    background-image: url("jez.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    position: relative;
+    color: black;
+} */
+
+
+/* .mau {
+    position: relative;
+}
+
+.mau::before {
+    content: "";
+    background-image: url("jez.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: 600px 400px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    position: relative;
+    color: black;
+} */
+
+.mau {
+    position: relative;
+}
+
+.mau::before {
+    content: "";
+    background-image: url("jez.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    position: relative;
+    color: black;
+}

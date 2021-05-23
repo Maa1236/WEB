@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    border: 1.6px solid rgba(34, 34, 34, 0.6);
+    width: 25%;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    color: rgb(36, 36, 90);
+}
+
+form {
+    background-color: rgba(248, 242, 255, 0.7);
+    padding: 17px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.caption {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(29, 29, 73);
+    padding-bottom: 5px;
+    border-bottom: 0.1px solid rgba(6, 6, 46, 0.3)
+}
+
+span {
+    color: orange;
+}
+
+label {
+    font-size: 14px;
+    color: rgba(36, 36, 90, 0.9);
+    font-family: helvetica;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+input[type="text"] {
+    width: 90%;
+    border-radius: 4px;
+    font-size: 14px;
+    border: solid 2px rgba(36, 36, 90, 0.3);
+    display: block;
+    padding: 3px 5px;
+    margin: auto;
+}
+
+input[type="email"] {
+    width: 90%;
+    border-radius: 4px;
+    font-size: 14px;
+    border: solid 2px rgba(36, 36, 90, 0.3);
+    display: block;
+    padding: 3px 5px;
+    margin: auto;
+}
+
+input[type="number"] {
+    width: 90%;
+    border-radius: 4px;
+    font-size: 14px;
+    border: solid 2px rgba(36, 36, 90, 0.3);
+    display: block;
+    padding: 3px 5px;
+    margin: auto;
+}
+
+input[type="text"]::placeholder {
+    font-size: 11px;
+}
+
+input[type="email"]::placeholder {
+    font-size: 11px;
+}
+
+input[type="number"]::placeholder {
+    font-size: 11px;
+}
+
+input[type="submit"] {
+    width: 90%;
+    border-radius: 4px;
+    font-size: 12px;
+    border: solid 0.1px rgba(36, 36, 90, 0.3);
+    display: block;
+    padding: 6px 5px;
+    margin: auto;
+    background-color: rgb(207, 55, 44);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.mau1:hover {
+    cursor: url("hellokitty_b.png"), auto;
+    background-color: rgba(207, 55, 44, 0.8);
+}
+
+.mau:hover {
+    cursor: pointer;
+}
+
+.nau:hover {
+    cursor: col-resize;
+}
+
+.demoObject {
+    -webkit-box-shadow: 0px 0px 19px -7px rgba(158, 160, 163, 1);
+    -moz-box-shadow: 0px 0px 19px -7px rgba(158, 160, 163, 1);
+    box-shadow: 0px 0px 19px -7px rgba(158, 160, 163, 1);
+}
+
+@media screen and (max-width: 900px) {
+    .caption {
+        display: block;
+    }
+    span {
+        display: block;
+    }
+    input[type="submit"] {
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 90%;
+    min-width: 270px;
+    margin: 0 auto;
+}
+
+.image-wrapp {
+    width: 100;
+    margin: 0;
+    border: solid rgb(200, 200, 240) 0.5px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.image-wrapp img {
+    width: 100%;
+}
+
+.logo {
+    font-size: 25px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 15px auto;
+}
+
+nav ul li {
+    text-align: center;
+    padding: 30px;
+    border: solid rgb(200, 200, 240) 0.5px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+article {
+    width: 100%;
+    border: solid rgb(200, 200, 240) 0.5px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width: 570px) {
+    header {
+        position: relative;
+        overflow: hidden;
+    }
+    .logo {
+        float: left;
+        margin: 20px auto;
+    }
+    nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    nav ul {
+        margin: 0;
+        overflow: hidden;
+        float: right;
+    }
+    nav ul li {
+        float: left;
+        border: none;
+        text-align: center;
+        padding: 0;
+        margin: 35px 15px 20px;
+    }
+    .image-wrapp {
+        margin: 120px auto 60px;
+    }
+    article img {
+        width: 40%;
+        margin-bottom: 0;
+        float: left;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 70%;
+    }
+    nav ul li {
+        float: left;
+        border: none;
+        text-align: center;
+        padding: 0;
+        margin: 35px 10px 20px;
+    }
+    article {
+        width: 33%;
+        border: none;
+        padding: 15px;
+        font-size: 25px;
+        float: left;
+        margin: 0 auto;
+    }
+    article img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

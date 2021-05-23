@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            display: flex;
+            width: 60%;
+            margin: 0 auto;
+        }
+        
+        .poseban {
+            display: flex;
+            flex: 1;
+            order: 2;
+            flex-direction: column-reverse;
+        }
+        
+        .div1 {
+            flex: 1;
+            display: flex;
+            background-color: orange;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .div2 {
+            flex: 1;
+            display: flex;
+            background-color: palevioletred;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .div3 {
+            flex: 1;
+            display: flex;
+            background-color: darkslateblue;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .cetvorka {
+            display: flex;
+            order: 1;
+            flex: 2;
+            padding: 90px;
+            background-color: purple;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="poseban">
+            <div class="div1">1</div>
+            <div class="div2">2</div>
+            <div class="div3">3</div>
+        </div>
+        <div class="cetvorka">4</div>
+    </main>
+</body>
+
+</html>

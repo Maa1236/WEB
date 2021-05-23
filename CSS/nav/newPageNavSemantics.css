@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    width: 60%;
+    background-color: rgb(228, 53, 53);
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+
+.jez {
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    border: 0px;
+}
+
+.jez img {
+    /* zasto dozvoljava da menjamo marginu kod inline el?*/
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+nav li a {
+    display: block;
+    float: right;
+    background-color: rgb(228, 53, 53);
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+main {
+    width: 60%;
+    background-color: rgb(238, 232, 232);
+    margin: 0 auto;
+}
+
+.contentdivcolors {
+    width: 100%;
+    height: 180px;
+    float: right;
+    padding: 80px 80px 60px 80px;
+    background-color: rgb(182, 141, 141);
+    color: white;
+    letter-spacing: 2px;
+    font-size: larger;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+article {
+    width: 33%;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+}
+
+.red {
+    background-color: rgb(228, 53, 53);
+}
+
+.blue {
+    background-color: rgba(18, 18, 43, 0.9);
+}
+
+.yellow {
+    background-color: orange;
+}
+
+.green {
+    background-color: rgba(18, 153, 52, 0.8);
+}
+
+p {
+    text-align: left;
+    font-size: 14px;
+    color: navy;
+    text-shadow: navy;
+    letter-spacing: 1px;
+}
+
+aside {
+    width: 33%;
+    display: inline-block;
+    padding: 10px;
+}
+
+aside nav {
+    width: 90%;
+    height: 230px;
+    position: relative;
+    bottom: 140px;
+    left: 10px;
+    float: right;
+    display: block;
+    margin: 0;
+    padding: 10px 10px 3px;
+    overflow: hidden;
+    text-align: center;
+    background-color: orange;
+}
+
+aside nav a {
+    display: block;
+    color: rgb(39, 38, 38);
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: left;
+    border-bottom: solid 1px maroon;
+    letter-spacing: 1px;
+}
+
+footer {
+    background-color: rgba(18, 18, 43, 0.9);
+    width: 100%;
+    padding: 12px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 300px;
+}
