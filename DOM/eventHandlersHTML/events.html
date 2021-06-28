@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #2D3E4F;
+        }
+        
+        .btn {
+            padding: 10px;
+            display: block;
+            background-color: #C1392B;
+            color: white;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+        
+        .back1 {
+            background-color: white;
+        }
+        
+        .turnOff {
+            padding: 10px;
+            display: block;
+            background-color: yellow;
+            color: black;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="turnOn()" class="btn" id="el">Toggle Background</button>
+    <button onclick="turnOff()" class="turnOff" id="turnOff">Turn Off</button>
+
+    <p id="demo"></p>
+
+
+
+    <script src="events.js"></script>
+</body>
+
+</html>
