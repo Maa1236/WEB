@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .wrapp {
+            height: 750px;
+            background-image: url("Snow_Background_NSMBW.png");
+            background-size: contain;
+            position: relative;
+            background-repeat: repeat-x;
+        }
+        
+        img {
+            width: 220px;
+            position: absolute;
+            top: 400px;
+            left: 650px;
+        }
+        
+        .wrp {
+            z-index: 1;
+            height: 600px;
+            width: 80%;
+            position: absolute;
+            left: 100px;
+            top: -200px;
+            background-image: url("snowflakes.png");
+            background-size: contain;
+            position: relative;
+            background-repeat: repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapp " id="wrapp">
+        <div class="wrp" id="snow">
+
+
+        </div>
+        <img src="mario.png" alt=" " id="mario">
+
+    </div>
+
+
+    <script src="superMarioGlide.js"></script>
+</body>
+
+</html>
