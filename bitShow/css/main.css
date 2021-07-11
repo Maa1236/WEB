@@ -1,0 +1,82 @@
+header {
+    position: relative;
+    width: 100%;
+}
+
+.noResults {
+    text-align: center;
+}
+
+.list-group {
+    top: 50px;
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    overflow: hidden;
+    position: fixed;
+}
+
+.list-group li {
+    position: relative;
+    list-style: none;
+    background-color: #a84343;
+    font-size: 1em;
+    width: 109%;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    text-align: left;
+    float: right;
+    display: block;
+}
+
+.list-group li:hover {
+    cursor: pointer;
+}
+
+.cardHold {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card {
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    margin: 10px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+.card img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.card:hover {
+    background-color: #69696e;
+}
+
+
+/*# sourceMappingURL=main.css.map */

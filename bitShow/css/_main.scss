@@ -1,0 +1,61 @@
+header {
+    position: relative;
+    width: 100%;
+}
+
+.noResults {
+    text-align: center;
+}
+
+.list-group {
+    top: 50px;
+    position: absolute;
+    z-index: 10;
+    width: 200px;
+    list-style: none;
+    padding-left: 0;
+    float: right;
+    overflow: hidden;
+    position: fixed;
+    li {
+        position: relative;
+        list-style: none;
+        background-color: rgb(168, 67, 67);
+        font-size: 1em;
+        width: 109%;
+        overflow: hidden;
+        border-bottom: 1px solid black;
+        text-align: left;
+        float: right;
+        display: block;
+    }
+    li:hover {
+        cursor: pointer;
+    }
+}
+
+.cardHold {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card {
+    @include margin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    img {
+        width: 100%;
+        @include margin;
+        transform: scale(1.0);
+        transition: transform 0.2s;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+    &:hover {
+        background-color: rgb(105, 105, 110);
+    }
+}
